@@ -1,0 +1,8 @@
+
+<div class="text-center">
+    <label>Insert the N=th number that you want to find</label>
+    <br>
+    <input type="number" value="1" class="col-3 text-center mr-2" [(ngModel)]="numberJs"/>
+    <button type="button" class="btn btn-primary" (click)="execute(numberJs)">Execute</button>
+    <p class="text-center">Result: {{result}}</p>
+</div>
